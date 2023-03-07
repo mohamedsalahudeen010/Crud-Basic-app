@@ -1,0 +1,64 @@
+body{
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main{
+    border: 3px solid white;
+    background-color: rgba(255, 255, 255, .2);
+    box-shadow: 2px 2px 2px whitesmoke;
+    margin: 100px auto;
+    width: 30%;
+    height: 80%;
+    border-radius: 10px;
+}
+form{
+    padding: 5px;
+}
+div{
+    padding: 5px;
+}
+h1{
+    text-align: center;
+    color: brown;
+    padding: 0px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.textlabel{
+    display: block;
+    font-size: 20px;
+}
+.input input{
+    width:95% ;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px;
+    margin: 5px 0px 10px;
+} 
+input:focus{
+    background-color: aqua;
+}
+
+.btn{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gender{
+    font-size: 30px;
+}
+.gender label{
+    font-size: 20px;
+}
+.gender input{
+    accent-color: grey;
+    transform: scale(1.5);
+}
+
+button{
+    background-color: cornsilk;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5px 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
